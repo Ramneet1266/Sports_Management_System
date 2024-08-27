@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+:root {
+	--blue: #2a2185;
+	--white: #fff;
+	--gray: #f5f5f5;
+	--black1: #222;
+	--black2: #999;
+}
+
+body {
+	background: rgb(233, 233, 233);
+}
+.container {
+	display: flex;
+	width: 1600px;
+	margin: auto;
+}
+.header {
+	background-color: #d23030;
+	padding: 10px 35px 28px 75px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+}
+nav {
+	position: sticky;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 300px;
+	height: 100vh;
+	background: #222d32;
+}
+.navbar {
+	width: 100%;
+}
+
+.logo {
+	margin: 0 1rem 0;
+	display: flex;
+	height: 200px;
+	align-items: center;
+}
+.logo img {
+	position: relative;
+	margin-bottom: 140px;
+	margin-left: 10px;
+	top: 20px;
+	width: 60px;
+	height: 60px;
+}
+ul {
+	position: relative;
+	top: -100px;
+}
+li {
+	padding: 10px;
+	font-size: 14px;
+	border: 1px solid #222d32;
+}
+li a {
+	color: #b8c7ce;
+	width: 100px;
+}
+li:hover {
+	background-color: #1a2226;
+	color: #fff;
+	padding: 15px;
+	border-left: 4px solid #d23030;
+	transition: 0.2s;
+}
+nav i {
+	width: 50px;
+	font-size: 18px;
+	text-align: center;
+}
+.main {
+	width: 100%;
+}
+.main-top {
+	width: 100%;
+	background: #f14141;
+	text-align: right;
+	height: 70px;
+	padding-right: 90px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: rgb(43, 43, 43);
+}
+.main-top img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	top: 18px;
+	position: relative;
+}
+.regis {
+	background-color: rgb(1, 1, 110);
+	color: white;
+	padding: 10px 20px 10px 20px;
+	position: relative;
+	top: 10px;
+	right: 60px;
+	border-radius: 5px;
+}
+.regis:hover {
+	background-color: rgb(3, 156, 216);
+	cursor: pointer;
+	transition: 0.2s;
+}
+.main-body {
+	padding: 10px 10px 10px 20px;
+}
+.nav {
+	color: #4b646f;
+	background: #1a2226;
+	padding-bottom: 1rem;
+	margin-bottom: 30px;
+	padding: 10px 35px 10px 25px;
+}
+.home {
+	text-align: right;
+	position: relative;
+	top: -21px;
+	color: rgb(97, 96, 96);
+}
+.main-table {
+	background-color: #fff;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3),
+		0 15px 12px rgba(0, 0, 0, 0.22);
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 81%;
+}
+.heading {
+	padding: 20px;
+	font-size: 20px;
+}
+.stats {
+	float: right;
+	font-size: 16px;
+	color: white;
+	border-radius: 10px;
+	position: relative;
+	bottom: 5px;
+	background-color: #025b96;
+	padding: 5px 10px 5px 10px;
+}
+
+.table {
+	margin-right: 20px;
+	margin-left: 99px;
+}
+table tr {
+	margin: 0px;
+	display: flex;
+}
+table th {
+	border: 2px solid #f4f4f4;
+	width: 180px;
+	cursor: pointer;
+	height: 40px;
+	padding-top: 5px;
+	text-align: center;
+}
+table td {
+	border-left: 2px solid #f4f4f4;
+	border-right: 2px solid #f4f4f4;
+	border-bottom: 2px solid #f4f4f4;
+	width: 180px;
+	height: 40px;
+	padding-top: 5px;
+	text-align: center;
+}
+.update {
+	text-align: center;
+	background-color: rgb(1, 1, 110);
+	padding: 5px;
+	margin-top: -10px;
+	border-radius: 10px;
+}
+.update a {
+	color: white;
+}
+.update:hover {
+	background-color: rgb(3, 156, 216);
+	cursor: pointer;
+	transition: 0.2s;
+}
+.row {
+	background-color: #f9f9f9;
+}
+table tr a {
+	color: #0faad1;
+	cursor: pointer;
+}
+.foot {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.foot-right {
+	float: right;
+	display: flex;
+	margin-right: 40px;
+	position: relative;
+	top: -30px;
+}
+.foot-right p {
+	padding: 7px 15px 7px 15px;
+}
